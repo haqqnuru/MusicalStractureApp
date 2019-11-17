@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/listViewImage"
+        android:layout_width="@dimen/image_view_height_width"
+        android:layout_height="@dimen/image_view_height_width"
+        android:contentDescription="@string/music_image"
+        android:src="@drawable/ironboy" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding">
+
+        <TextView
+            android:id="@+id/artistListView"
+            style="@style/artistSongTextViews"
+            android:textStyle="bold"
+            tools:text="@string/artist" />
+
+        <TextView
+            android:id="@+id/songListView"
+            style="@style/artistSongTextViews"
+            tools:text="@string/song" />
+
+        <TextView
+            android:id="@+id/albumListView"
+            style="@style/albumTextViews"
+            tools:text="@string/album" />
+
+    </LinearLayout>
+</LinearLayout>

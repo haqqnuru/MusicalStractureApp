@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Image size on list_music.xml -->
+    <dimen name="image_view_height_width">90dp</dimen>
+
+    <!-- Padding lift and right -->
+    <dimen name="padding">16dp</dimen>
+</resources>
